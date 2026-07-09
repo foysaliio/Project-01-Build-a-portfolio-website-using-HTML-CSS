@@ -1,0 +1,132 @@
+/* Reset  Style */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+}
+
+:root {
+  --primary-color: #fd6e0a;
+  --secondary-color: #fff8f3;
+  --big-text: 60px;
+  --mid-text: 35px;
+  --section-heading-text: 30px;
+  --about-section-heading-text: 27px;
+  --about-section-sub-heading-text: 23px;
+  --peragraph-big-text: 18px;
+  --peragraph-text: 16px;
+  --peragraph-small-text: 14px;
+  --dark-01: #181818;
+  --dark-02: #474747;
+  --dark-03: #757575;
+  --big-spacing: 24px;
+  --spacing: 16px;
+  --small-spacing: 8px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header part CSS */
+#header {
+  background-color: var(--secondary-color);
+}
+
+/* Navbar Part CSS start */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.logo {
+  font-size: var(--mid-text);
+  font-weight: bold;
+}
+.logo-style {
+  color: var(--primary-color);
+}
+#navbar .nav-links {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+}
+#navbar .nav-links li a {
+  text-decoration: none;
+  color: var(--dark-02);
+}
+.hire-me-button {
+  border: none;
+  background-color: var(--primary-color);
+  padding: 13px 25px;
+  border-radius: 5px;
+  font-size: var(--peragraph-text);
+  color: white;
+  font-weight: bold;
+}
+/* Navbar Part CSS end */
+
+/* Hero part CSS start */
+#hero {
+  /* padding-top: 100px; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.hero-content {
+  justify-self: start;
+}
+.hero-content h3 {
+  font-size: var(--mid-text);
+  color: var(--dark-02);
+  margin-bottom: 10px;
+}
+.hero-content h1 {
+  font-size: var(--big-text);
+  color: var(--dark-01);
+  margin-bottom: 10px;
+}
+.hero-content p {
+  font-size: var(--peragraph-text);
+  color: var(--dark-03);
+  margin-bottom: 30px;
+}
+.hero-content-btn {
+  display: flex;
+  gap: 15px;
+}
+.download-cv-btn {
+  border: none;
+  background-color: var(--primary-color);
+  padding: 13px 25px;
+  border-radius: 5px;
+  font-size: var(--peragraph-text);
+  color: white;
+  font-weight: bold;
+}
+.contact-btn {
+  border: 1px solid hsla(25, 98%, 52%, 0.356);
+  background-color: var(--secondary-color);
+  padding: 13px 25px;
+  border-radius: 5px;
+  font-size: var(--peragraph-text);
+  color: var(--primary-color);
+  font-weight: bold;
+
+  transition: 0.3s ease-in;
+}
+.contact-btn:hover {
+  border: 1px solid #ff6a00;
+}
+.hero-img {
+  justify-self: end;
+}
+/* Hero part CSS end */
