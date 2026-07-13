@@ -34,6 +34,21 @@ body {
   margin: 0 auto;
 }
 
+/* ================================================== Common Design ================================================== */
+
+.common-heading {
+  font-size: 28px;
+  color: var(--dark-01);
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+.common-desc {
+  font-size: 14px;
+  color: var(--dark-03);
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+}
+
 /* Header part CSS */
 #header {
   background-color: var(--secondary-color);
@@ -48,7 +63,7 @@ body {
 }
 .logo {
   font-size: var(--mid-text);
-  font-weight: bold;
+  font-weight: bolder;
 }
 .logo-style {
   color: var(--primary-color);
@@ -80,6 +95,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
+  margin-bottom: 70px;
 }
 .hero-content {
   justify-self: start;
@@ -130,3 +146,38 @@ body {
   justify-self: end;
 }
 /* Hero part CSS end */
+
+/* About part CSS start */
+#about {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.about-bg {
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+}
+
+.about-content {
+  padding: 80px 120px;
+}
+
+.about-content .common-heading {
+  margin-bottom: 20px;
+}
+.about-content .common-desc {
+  margin-bottom: 30px;
+}
+.about-info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-info .info .title {
+  font-size: 14px;
+  color: var(--dark-03);
+}
+.about-info .info .value {
+  font-size: 16px;
+  color: var(--dark-02);
+}
+/* About part CSS end */
