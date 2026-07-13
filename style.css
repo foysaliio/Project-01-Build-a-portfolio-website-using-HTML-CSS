@@ -95,7 +95,6 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  margin-bottom: 70px;
 }
 .hero-content {
   justify-self: start;
@@ -150,34 +149,40 @@ body {
 /* About part CSS start */
 #about {
   text-align: center;
-  margin-bottom: 70px;
-}
-.about-bg {
-  background-color: var(--secondary-color);
-  border-radius: 10px;
+  padding: 80px 0;
 }
 
-.about-content {
+.about {
+  background-color: var(--secondary-color);
+  border-radius: 10px;
   padding: 80px 120px;
 }
 
-.about-content .common-heading {
+.about > .common-heading {
   margin-bottom: 20px;
 }
-.about-content .common-desc {
+.about .common-desc {
   margin-bottom: 30px;
 }
 .about-info {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  gap: 20px;
 }
 
-.about-info .info .title {
+.about-info-item a {
+  text-decoration: none;
+}
+
+.about-info-title {
+  display: block;
   font-size: 14px;
   color: var(--dark-03);
 }
-.about-info .info .value {
+.about-info-value {
   font-size: 16px;
+  font-weight: bold;
   color: var(--dark-02);
 }
+
 /* About part CSS end */
