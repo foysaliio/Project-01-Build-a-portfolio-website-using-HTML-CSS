@@ -8,6 +8,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
+  background-color: hsla(0, 0%, 95%, 0.253);
 }
 
 :root {
@@ -155,13 +156,13 @@ body {
 .about {
   background-color: var(--secondary-color);
   border-radius: 10px;
-  padding: 80px 120px;
+  padding: 80px 150px;
 }
 
 .about > .common-heading {
   margin-bottom: 20px;
 }
-.about .common-desc {
+.about > .common-desc {
   margin-bottom: 30px;
 }
 .about-info {
@@ -186,3 +187,56 @@ body {
 }
 
 /* About part CSS end */
+
+/* Skill part CSS start */
+#skill {
+  text-align: center;
+}
+.skill {
+  border-radius: 10px;
+}
+
+.skill > .common-heading {
+  margin-bottom: 20px;
+  padding: 0 150px;
+}
+.skill > .common-desc {
+  margin-bottom: 50px;
+  padding: 0 150px;
+}
+
+.about-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  text-align: left;
+}
+
+.about-card-item {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid hsla(0, 0%, 46%, 0.493);
+  transition: border 0.3 ease-in border-radius 0.3 ease-in;
+}
+
+.about-card-item:hover {
+  border: 1px solid var(--dark-03);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.about-card-img {
+  height: 30px;
+}
+.about-card-name {
+  display: block;
+  color: var(--dark-01);
+  font-weight: bold;
+  padding: 20px 0;
+}
+.about-card-desc {
+  color: var(--dark-03);
+  font-size: 14px;
+}
+/* Skill part CSS end */
