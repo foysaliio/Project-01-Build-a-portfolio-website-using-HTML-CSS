@@ -240,3 +240,68 @@ body {
   font-size: 14px;
 }
 /* Skill part CSS end */
+
+/* resume part CSS start */
+#resume {
+  text-align: center;
+  padding: 80px 0;
+}
+.resume > .common-heading {
+  margin-bottom: 20px;
+}
+
+.resume-content {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+.resume-education,
+.resume-experience {
+  text-align: left;
+}
+
+.resume-education-title,
+.resume-experience-title {
+  color: var(--dark-02);
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.resume-education-degree,
+.resume-experience-position {
+  color: var(--dark-02);
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.resume-education-university,
+.resume-experience-company {
+  color: var(--dark-03);
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.resume-education-desc,
+.resume-experience-desc {
+  color: var(--dark-03);
+  font-size: 14px;
+}
+
+.hr-divider {
+  border-top: 1px solid var(--dark-03);
+  margin: 20px 0;
+}
+
+.resume-download-cv-btn {
+  margin: 50px auto;
+  border: none;
+  background-color: var(--primary-color);
+  padding: 13px 25px;
+  border-radius: 5px;
+  font-size: var(--peragraph-text);
+  color: white;
+  font-weight: bold;
+}
+/* resume part CSS end */
