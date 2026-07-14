@@ -351,3 +351,33 @@ body {
   grid-area: six;
 }
 /* Gallery part CSS end */
+
+/* Footer part CSS start */
+#footer {
+  background-color: var(--secondary-color);
+}
+.footer {
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: 6.5fr 3.5fr;
+  gap: 10px;
+}
+.footer-content {
+}
+.footer-content-desc {
+  max-width: 600px;
+  color: var(--dark-02);
+  font-size: 14px;
+  padding: 20px 0;
+}
+.footer-content-social-icons {
+  color: var(--primary-color);
+  display: flex;
+  gap: 10px;
+}
+.footer-content-social-icons a {
+  color: var(--primary-color);
+}
+.footer-form {
+}
+/* Footer part CSS end */
