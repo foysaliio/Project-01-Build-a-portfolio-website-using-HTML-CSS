@@ -357,7 +357,7 @@ body {
   background-color: var(--secondary-color);
 }
 .footer {
-  padding: 50px 0;
+  padding: 100px 0;
   display: grid;
   grid-template-columns: 6.5fr 3.5fr;
   gap: 10px;
@@ -378,6 +378,27 @@ body {
 .footer-content-social-icons a {
   color: var(--primary-color);
 }
-.footer-form {
+.footer-form button {
+  margin-top: 20px;
+}
+.form {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-control {
+  padding: 15px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.form-control::placeholder {
+  color: var(--dark-03);
+  font-size: 14px;
+}
+.form-control:focus {
+  border: 1px solid var(--dark-03);
 }
 /* Footer part CSS end */
