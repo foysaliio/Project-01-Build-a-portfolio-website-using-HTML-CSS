@@ -1,76 +1,77 @@
 # Personal Portfolio Website
 
-A clean and responsive personal portfolio website built using HTML5 and CSS3. This project showcases my frontend development skills, including semantic HTML, modern CSS layout techniques, reusable components, and clean code organization.
+A personal portfolio website built from scratch using HTML and CSS.
 
-## 🚀 Live Demo
+This was one of my early frontend projects, created to practice structuring a real website with HTML and styling it with CSS.
 
-Live: https://foysaliio.github.io/Project-01-Build-a-portfolio-website-using-HTML-CSS/
+## Live Demo
 
-## ✨ Features
+[View Live Portfolio](https://foysaliio.github.io/Project-01-Build-a-portfolio-website-using-HTML-CSS/)
 
-- Semantic HTML5 structure
-- Modern CSS3 styling
-- CSS Variables
-- Flexbox Layout
-- CSS Grid Layout
-- Grid Template Areas
-- Responsive-ready structure
-- Reusable components
-- Portfolio Gallery
-- Resume Section
-- Contact Form
-- Clean folder structure
+## Screenshot
 
-## 🛠️ Technologies Used
+![Personal Portfolio Website](./images/foysal_hossien_portfolio_HTML_CSS.png)
 
-- HTML5
-- CSS3
-- CSS Grid
-- Flexbox
-- Font Awesome
-- Google Fonts
+## Features
 
-## 📂 Project Structure
+• Personal introduction section
+• Navigation bar
+• About section
+• Skills section
+• Portfolio section
+• Resume section
+• Contact section
+• Clean and structured layout
 
+## Technologies Used
+
+• HTML5
+• CSS3
+
+## What I Practiced
+
+Through this project, I practiced:
+
+• Writing semantic HTML structure
+• Creating website layouts with CSS
+• Working with Flexbox
+• Working with CSS Grid
+• Styling different sections of a website
+• Organizing HTML and CSS code
+• Building a complete website from scratch
+
+## Project Structure
+
+```text
+Project-01-Build-a-portfolio-website-using-HTML-CSS/
+│
 ├── images/
+├── resources/
 ├── index.html
 ├── style.css
 └── README.md
+```
 
-## 🎯 Learning Goals
+## Note
 
-This project was built to practice:
+This project was built as a frontend practice project using only HTML and CSS.
 
-- Semantic HTML
-- CSS Variables
-- Flexbox
-- CSS Grid
-- Grid Areas
-- Responsive Layout Preparation
-- Component-Based Styling
-- Clean Code Organization
+The website is not responsive yet. Responsive design and interactive functionality will be explored in future projects.
 
-## 📌 Future Improvements
+## Future Improvements
 
-- Responsive Design
-- Dark Mode
-- Smooth Scroll
-- Animations
-- Form Validation
-- JavaScript Interactions
-- Accessibility Improvements
-- SEO Optimization
+• Make the website fully responsive
+• Add JavaScript interactions
+• Add smooth scrolling
+• Add animations
+• Improve accessibility
+• Add form validation
 
-## 👨‍💻 Author
+## Author
 
-Foysal Hossien
+**Foysal Hossien**
 
 Aspiring Full Stack Web Engineer
 
-GitHub: https://github.com/foysaliio
-
-LinkedIn: https://www.linkedin.com/in/foysaliio/
-
-## ⭐ Support
-
-If you like this project, consider giving it a ⭐ on GitHub.
+[GitHub](https://github.com/foysaliio)
+[LinkedIn](https://www.linkedin.com/in/foysaliio/)
